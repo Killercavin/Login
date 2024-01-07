@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #login{
@@ -17,15 +19,130 @@
 }
 
 .title-div{
-    margin: auto;
-    padding: 5px;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 5px;
+    padding: 0;
 }
 
 .title-div h1{
     font-size: large;
     font-weight: 800;
     display: flexbox;
-    margin: 10px;
-    padding: 45px;
+    margin: 0;
+    padding: 2.5px;
+    text-align: center;
+}
+
+.title-div p{
+    font-size: 15px;
+    font-weight: 400;
+    display: flexbox;
+    margin: 0;
+    padding: 0.5px;
+    text-align: center;
+}
+
+.title-div p a{
+    text-decoration: none;
+    color: #000;
+}
+
+.title-div p a:hover{
+    color: #0945e9;
+    transition: 0.5s;
+}
+
+.form-div{
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 5px;
+    padding: 0;
+}
+
+.login-form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+}
+
+.login-form input{
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    left: 5px;
+    right: 5px;
+    height: 45px;
+    margin: 2.5px;
+    padding: 18px;
+    border: 1px solid #0945e9;
+    border-radius: 5px;
+    outline: none;
+}
+
+.login-form button{
+    width: 80%;
+    height: 45px;
+    display: inline-block;
+    position: relative;
+    left: 5px;
+    right: 5px;
+    margin: 2.5px;
+    padding: 0;
+    border: 1px solid #0945e9;
+    border-radius: 5px;
+    outline: none;
+    background-color: #0945e9;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login-form button:hover{
+    background-color: #fff;
+    color: #0945e9;
+    transition: 0.5s;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-left: 5px;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 5px;
+    padding: 0;
+}
+
+.footer-div p{
+    font-size: 15px;
+    font-weight: 400;
+    display: flexbox;
+    margin: 0;
+    padding: 0.5px;
     text-align: center;
 }
